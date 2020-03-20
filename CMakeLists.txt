@@ -89,11 +89,11 @@ SET(${PROJECT_NAME}_EXCLUDE_DISABLED_SUBPACKAGES_FROM_DISTRIBUTION_DEFAULT FALSE
 SET(${PROJECT_NAME}_CONFIGURE_OPTIONS_FILE_APPEND
   "${CMAKE_CURRENT_LIST_DIR}/cmake/StdDevEnvs.cmake" )
 
-#SET(CMAKE_C_FLAGS "-g -O0 -shared-intel -fp-model strict")
-#SET(CMAKE_CXX_FLAGS "-g -O0 -shared-intel -fp-model strict")
+#SET(CMAKE_C_FLAGS "-g -O0")
+#SET(CMAKE_CXX_FLAGS "-g -O0")
 
-SET(CMAKE_C_FLAGS "-O3 -shared-intel -fp-model strict")
-SET(CMAKE_CXX_FLAGS "-O3 -shared-intel -fp-model strict")
+SET(CMAKE_C_FLAGS "-O3")
+SET(CMAKE_CXX_FLAGS "-O3")
 # Do all of the processing for this Tribits project
 TRIBITS_PROJECT()
 
